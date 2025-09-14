@@ -188,42 +188,6 @@ footer{
 }
 
 
-
-
-/* Media Queries */
-
-@media screen and (max-width : 700px)
-{
-    
-    .navmenu{
-        display: block;
-    }    
-
-    .navlinks{
-        display: none;
-    }
-
-    .himg{
-        display: none;
-    }
-
-    .sc1{
-        display: none ;
-    }
-
-    .sc2{
-        flex-direction: column;
-    }
-
-    .contact {
-        display: none;
-    }
-    
-    .something{
-        display: block;
-    }
-}
-
 /*cart*/
 .citems img{
     width: 300px;
@@ -325,7 +289,7 @@ footer{
 
 .something{
     width: 280px;
-    height: 320px;
+    height: 350px;
     background-color: black;
     color: #c8e9aa;
     margin-top: 80px;
@@ -346,3 +310,36 @@ footer{
 
 
 
+/* Media Queries */
+
+@media screen and (max-width : 700px)
+{
+    
+    .navmenu{
+        display: block;
+    }    
+
+    .navlinks{
+        display: none;
+    }
+
+    .himg{
+        display: none;
+    }
+
+    .sc1{
+        display: none ;
+    }
+
+    .sc2{
+        flex-direction: column;
+    }
+
+    .contact {
+        display: none;
+    }
+    
+    .something{
+        display: block;
+    }
+}
